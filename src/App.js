@@ -5,10 +5,11 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 
 //import pages here
 import Home from "./pages/Home";
-import JavascriptTopic from "./pages/JavascriptTopic";
+import HtmlTopic from "./pages/HtmlTopic";
 import CssTopic from "./pages/CssTopic";
 import ReactTopic from "./pages/ReactTopic";
 import UiUxTopic from "./pages/UiUxTopic";
+import ErrorPage from "./pages/ErrorPage";
 
 //POTENTIALLY MOVE TO ONE OF THE PAGES
 //const topic = ["Javascript", "CSS", "React", "UI / UX"];
@@ -18,10 +19,11 @@ function App() {
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/javascript" element={<JavascriptTopic />} />
+      <Route path="/html" element={<HtmlTopic />} />
       <Route path="/css" element={<CssTopic />} />
       <Route path="/react" element={<ReactTopic />} />
       <Route path="/uiux" element={<UiUxTopic />} />
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   </BrowserRouter>
   )
