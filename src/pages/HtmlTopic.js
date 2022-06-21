@@ -1,9 +1,14 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
 
 
 function HtmlTopic() {
+    let navigate = useNavigate();
     return (
-        <div> HTML Boosters </div>
+        <>
+            <h1> HTML Boosters </h1>
+            <button onClick={() => {navigate("/");}}>Back to Home</button>
+        </>
     )
 }
 

@@ -11,8 +11,6 @@ import ReactTopic from "./pages/ReactTopic";
 import UiUxTopic from "./pages/UiUxTopic";
 import ErrorPage from "./pages/ErrorPage";
 
-//POTENTIALLY MOVE TO ONE OF THE PAGES
-//const topic = ["Javascript", "CSS", "React", "UI / UX"];
 
 function App() {
   return (
@@ -30,13 +28,3 @@ function App() {
 }
 
 export default App;
-
-//code from prior to changing from components to pages
-{/* <div className="App">
-      <h1>Hey Chuks</h1>
-      <Link to="/invoices">Invoices</Link>
-      <TopicButton topic={topic[0]} />
-      <TopicButton topic={topic[1]} />
-      <TopicButton topic={topic[2]} />
-      <TopicButton topic={topic[3]} />
-    </div>; */}

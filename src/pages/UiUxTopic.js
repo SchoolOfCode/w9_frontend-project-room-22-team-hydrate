@@ -1,9 +1,13 @@
 import React from "react";
-
+import {useNavigate} from "react-router-dom";
 
 function UiUxTopic() {
+    let navigate = useNavigate();
     return (
-        <div> UI / UX Boosters </div>
+        <>
+            <h1> UI / UX Boosters </h1>
+            <button onClick={() => {navigate("/");}}>Back to Home</button>
+        </>    
     )
 }
 
