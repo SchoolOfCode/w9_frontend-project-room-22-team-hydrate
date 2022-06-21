@@ -9,9 +9,10 @@ import React from "react";
     //on click, it will move on to next set of options
         //need to have the on click navigate to next page
 
-// function onClick() {
-//     //how do you write an onClick function?
-// }
+function onClick() {
+    //we need this to move pages to the Media Selection
+    window.location = "/media-selection";
+}
 
 function TopicButton({topic}) {
     //state?
@@ -21,7 +22,7 @@ function TopicButton({topic}) {
 
     //return
     return (
-        <button>{topic}</button>
+        <button onClick={onClick}>{topic}</button>
 
     );
 
