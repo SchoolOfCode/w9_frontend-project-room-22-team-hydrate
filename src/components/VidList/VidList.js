@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 
-import ListItem from "../ListItem/ListItem";
+import VidListItem from "../VidListItem/VidListItem";
 
 
 //create a function {cssState}
@@ -8,17 +8,17 @@ import ListItem from "../ListItem/ListItem";
     //needs to render ListItems as lis 
         //needs to map through - need state from parent, parent is CssTopic
         //these are coming in from the backend response
-function List({cssState}) {
+function VidList({cssState}) {
     //console.log(cssState);
     //console.log(cssState.payload);
 
     return (
             cssState
             .filter((item) => {
-                return item.docs_link !== null;
+                return item.video_link !== null;
             }).map(function (item) {
                 return (
-                <ListItem docsLink={item.docs_link} description={item.description}/>
+                <VidListItem vidLink={item.video_link} description={item.description}/>
                 )
                 }
             )
@@ -28,4 +28,4 @@ function List({cssState}) {
 
 
 
-export default List;
+export default VidList;

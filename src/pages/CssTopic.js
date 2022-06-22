@@ -3,6 +3,7 @@ import {useNavigate} from "react-router-dom";
 
 import List from "../components/List/List";
 import ListItem from "../components/ListItem/ListItem";
+import VidList from "../components/VidList/VidList";
 
 
 function CssTopic() {
@@ -27,6 +28,7 @@ function CssTopic() {
         <>
             <h1> CSS Boosters </h1>
             <List cssState={cssState}/>
+            <VidList cssState={cssState}/>
             <button onClick={() => {navigate("/");}}>Back to Home</button>
         </>
     )
