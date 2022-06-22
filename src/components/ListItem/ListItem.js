@@ -11,9 +11,7 @@ function ListItem({link, description}) {
 
 
     return (
-        <>
-         
-        </>
+         <li>{link}  {description}</li>
     );
 }
 
