@@ -10,8 +10,8 @@ import ListItem from "../ListItem/ListItem";
         //these are coming in from the backend response
 function List({cssState}) {
     //console.log(cssState);
-    //console.log(cssState[0].link);
-    //console.log(cssState[0].description);
+    // console.log(cssState[0].link);
+    // console.log(cssState[0].description);
     //useEffect
 
     return (

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 
 import List from "../components/List/List";
@@ -6,17 +6,21 @@ import ListItem from "../components/ListItem/ListItem";
 
 
 function CssTopic() {
-    const [cssState, setCssState] = useState([
-        {
-            link: "www.test.com",
-            description: "test link description"
-        },
-        {
-            link: "www.testnumero2.com",
-            description: "second test description"
-        }
-    ]);
+    
+    useEffect( () => {
+        fetchItems();
+    }, []);
 
+    const [cssState, setCssState] = useState([]);
+
+    const fetchItems = async () => {
+        const response = await fetch("http://localhost:3000/resources/css");
+        const data = await response.json();
+        //console.log(data);
+        setCssState(data);
+    };
+
+    //console.log(cssState);
 
     let navigate = useNavigate();
     return (
