@@ -14,13 +14,13 @@ function CssTopic() {
     const [cssState, setCssState] = useState([]);
 
     const fetchItems = async () => {
-        const response = await fetch("http://localhost:3000/resources/css");
+        const response = await fetch("http://localhost:3000/resources/CSS");
         const data = await response.json();
         //console.log(data);
-        setCssState(data);
+        setCssState(data.payload);
     };
 
-    //console.log(cssState);
+    console.log(cssState);
 
     let navigate = useNavigate();
     return (

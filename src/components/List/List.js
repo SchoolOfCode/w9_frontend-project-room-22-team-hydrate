@@ -10,14 +10,12 @@ import ListItem from "../ListItem/ListItem";
         //these are coming in from the backend response
 function List({cssState}) {
     //console.log(cssState);
-    // console.log(cssState[0].link);
-    // console.log(cssState[0].description);
-    //useEffect
+    //console.log(cssState.payload);
 
     return (
             cssState.map(function (item) {
                 return (
-                <ListItem link={item.link} description={item.description}/>
+                <ListItem vidLink={item.video_link} docsLink={item.docs_link} description={item.description}/>
                 )
                 }
             )

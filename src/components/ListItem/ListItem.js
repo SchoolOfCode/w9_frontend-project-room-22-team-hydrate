@@ -6,12 +6,12 @@ import React from "react";
     //needs to render ListItems as lis 
         //needs to map through
         //these are coming in from the backend response
-function ListItem({link, description}) {
+function ListItem({vidLink,docsLink, description}) {
 
 
 
     return (
-         <li>{link}  {description}</li>
+         <li>{vidLink}  {docsLink} {description}</li>
     );
 }
 
