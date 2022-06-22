@@ -27,7 +27,9 @@ function CssTopic() {
     return (
         <>
             <h1> CSS Boosters </h1>
+            <h3>Reading Resources</h3>
             <List cssState={cssState}/>
+            <h3>Video Resources</h3>
             <VidList cssState={cssState}/>
             <button onClick={() => {navigate("/");}}>Back to Home</button>
         </>
