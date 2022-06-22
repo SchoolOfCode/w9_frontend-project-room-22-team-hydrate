@@ -11,7 +11,12 @@ function ListItem({vidLink,docsLink, description}) {
 
 
     return (
-         <li>{vidLink}  {docsLink} {description}</li>
+        <>
+         {/* <li>{vidLink}  {docsLink} {description}</li> */}
+         {/* <li><a href={vidLink}>VideoLink</a></li>
+         <li>{description}</li> */}
+         <li className="invalid nav-item"><a href={vidLink}>{description}</a></li>
+         </>
     );
 }
 
@@ -19,3 +24,18 @@ function ListItem({vidLink,docsLink, description}) {
 
 
 export default ListItem;
+
+
+/*     <table >
+            <tr>
+                <th>Video Link</th>
+                <th>Docs Link</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <th>{vidLink}</th>
+                <th>{docsLink}</th>
+                <th>{description}</th>
+            </tr>
+         </table>
+         */
