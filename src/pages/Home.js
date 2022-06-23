@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
         <img src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
-        <h2>What would you like to boost on today?</h2>
+        <h2>What would you like a boost on today?</h2>
         <div>
             <button onClick={() => {navigate("/html");}}><img src={HtmlLogo} height ="239" width="373" /></button>
             <button onClick={() => {navigate("/css");}}><img src={cssLogo} height ="239" width="373" /></button>
