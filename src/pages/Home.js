@@ -8,7 +8,7 @@ function Home() {
         <img src="../assets/BootcampBoosterLogo.png" alt="BootcampBoosterLogo" />
         <div>
             <button onClick={() => {navigate("/html");}}>HTML</button>
-            <button onClick={() => {navigate("/css");}}>CSS</button>
+            <button className="css-button" name="css-button" onClick={() => {navigate("/css");}}>CSS</button>
         </div>
         <div>
             <button onClick={() => {navigate("/react");}}>React</button>
