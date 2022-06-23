@@ -1,11 +1,12 @@
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
+import BootcampBoosterLogo from "../assets/BootcampBoosterLogo.png";
 
 function Home() {
     let navigate = useNavigate();
     return (
         <>
-        <img src="../assets/BootcampBoosterLogo.png" alt="BootcampBoosterLogo" />
+        <img src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
         <div>
             <button onClick={() => {navigate("/html");}}>HTML</button>
             <button onClick={() => {navigate("/css");}}>CSS</button>

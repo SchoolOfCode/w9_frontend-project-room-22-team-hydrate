@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
+import BootcampBoosterLogo from "../assets/BootcampBoosterLogo.png";
 
 import List from "../components/List/List";
 import VidList from "../components/VidList/VidList";
@@ -24,6 +25,7 @@ function UiUxTopic() {
     let navigate = useNavigate();
     return (
         <>
+            <img src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
             <h2> Here are some UI / UX Boosters </h2>
             <h3>Reading Resources</h3>
             <List topicState={topicState}/>
