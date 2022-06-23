@@ -13,7 +13,7 @@ function VidListItem({vidLink, description}) {
          {/* <li>{vidLink}  {docsLink} {description}</li> */}
          {/* <li><a href={vidLink}>VideoLink</a></li>
          <li>{description}</li> */}
-         <li className="invalid nav-item"><a href={vidLink}>{description}</a></li>
+         <li className="link"><a href={vidLink}>{description}</a></li>
          </>
     );
 }

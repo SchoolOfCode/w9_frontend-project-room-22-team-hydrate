@@ -6,3 +6,57 @@ body{
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
+
+.logo {
+  margin-bottom: -4.75rem;
+  margin-top: -2.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.topic-button {
+  border: none;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 1rem;
+  /* width: auto; */
+  /* height: auto; */
+}
+
+.topic-pic {
+  margin: -2px;
+  /* padding: 0; */
+}
+
+.topic-pic:hover {
+  opacity: 80%;
+}
+
+.back-button {
+  margin-top: 4rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  border: none;
+  padding: 10px 20px;
+  background:rgba(84, 173, 203, 0.84);
+  border-radius: 30px;
+}
+
+.back-button:hover {
+  background:rgba(86, 130, 143, 0.707)
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: rgb(220, 76, 220);
+}

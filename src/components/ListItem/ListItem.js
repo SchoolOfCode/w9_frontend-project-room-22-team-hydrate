@@ -13,7 +13,7 @@ function ListItem({docsLink, description}) {
          {/* <li>{vidLink}  {docsLink} {description}</li> */}
          {/* <li><a href={vidLink}>VideoLink</a></li>
          <li>{description}</li> */}
-         <li className="invalid nav-item"><a href={docsLink}>{description}</a></li>
+         <li className="link"><a href={docsLink} target="_blank" rel="noopener noreferrer">{description}</a></li>
          </>
     );
 }

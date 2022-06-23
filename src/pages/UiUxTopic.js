@@ -25,13 +25,13 @@ function UiUxTopic() {
     let navigate = useNavigate();
     return (
         <>
-            <img src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
+            <img className="logo" src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
             <h2> Here are some UI / UX Boosters </h2>
             <h3>Reading Resources</h3>
             <List topicState={topicState}/>
             <h3>Video Resources</h3>
             <VidList topicState={topicState}/>
-            <button onClick={() => {navigate("/");}}>Back to Home</button>
+            <button className="back-button" onClick={() => {navigate("/");}}>Back to Home</button>
         </>    
     )
 }
