@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 
 import List from "../components/List/List";
-import ListItem from "../components/ListItem/ListItem";
 import VidList from "../components/VidList/VidList";
 
 
@@ -12,25 +11,25 @@ function CssTopic() {
         fetchItems();
     }, []);
 
-    const [cssState, setCssState] = useState([]);
+    const [topicState, setTopicState] = useState([]);
 
     const fetchItems = async () => {
         const response = await fetch("http://localhost:3000/resources/CSS");
         const data = await response.json();
         //console.log(data);
-        setCssState(data.payload);
+        setTopicState(data.payload);
     };
 
-    console.log(cssState);
+    //console.log(cssState);
 
     let navigate = useNavigate();
     return (
         <>
-            <h1> CSS Boosters </h1>
+            <h2> Here are some CSS Boosters </h2>
             <h3>Reading Resources</h3>
-            <List cssState={cssState}/>
+            <List topicState={topicState}/>
             <h3>Video Resources</h3>
-            <VidList cssState={cssState}/>
+            <VidList topicState={topicState}/>
             <button onClick={() => {navigate("/");}}>Back to Home</button>
         </>
     )

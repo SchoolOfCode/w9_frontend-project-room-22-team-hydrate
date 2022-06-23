@@ -8,12 +8,12 @@ import VidListItem from "../VidListItem/VidListItem";
     //needs to render ListItems as lis 
         //needs to map through - need state from parent, parent is CssTopic
         //these are coming in from the backend response
-function VidList({cssState}) {
+function VidList({topicState}) {
     //console.log(cssState);
     //console.log(cssState.payload);
 
     return (
-            cssState
+            topicState
             .filter((item) => {
                 return item.video_link !== null;
             }).map(function (item) {
