@@ -5,7 +5,7 @@ function Home() {
     let navigate = useNavigate();
     return (
         <>
-        <h1> Homepage </h1> 
+        <img src="../assets/BootcampBoosterLogo.png" alt="BootcampBoosterLogo" />
         <div>
             <button onClick={() => {navigate("/html");}}>HTML</button>
             <button onClick={() => {navigate("/css");}}>CSS</button>
