@@ -12,7 +12,7 @@ import ReactTopic from "./pages/ReactTopic";
 import UiUxTopic from "./pages/UiUxTopic";
 import ErrorPage from "./pages/ErrorPage";
 
-
+//deals with React Router to render the various pages
 function App() {
   return (
   <BrowserRouter>
