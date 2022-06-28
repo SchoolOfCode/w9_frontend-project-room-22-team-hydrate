@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 
 //imports for React Router as per docs
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 //import pages here
 import Home from "./pages/Home";
