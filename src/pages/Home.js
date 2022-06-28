@@ -15,16 +15,16 @@ function Home() {
     let navigate = useNavigate();
     return (
         <>
-        <img className="logo" src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
-        <h2>What would you like a boost on today?</h2>
-        <div>
-            <button className="topic-button" onClick={() => {navigate("/html");}}><img className="topic-pic" src={HtmlButton} /></button>
-            <button className="topic-button" onClick={() => {navigate("/css");}}><img className="topic-pic" src={CssButton} /></button>
-        </div>
-        <div>
-            <button className="topic-button" onClick={() => {navigate("/react");}}><img className="topic-pic" src={ReactButton} /></button>
-            <button className="topic-button" onClick={() => {navigate("/uiux");}}><img className="topic-pic" src={UiuxButton} /></button>
-        </div>
+            <img className="logo" src={BootcampBoosterLogo} alt="BootcampBoosterLogo" />
+            <h2>What would you like a boost on today?</h2>
+            <div>
+                <button className="topic-button" role="button" onClick={() => {navigate("/html");}}><img className="topic-pic" src={HtmlButton} alt="html button"/></button>
+                <button className="topic-button" role="button" onClick={() => {navigate("/css");}}><img className="topic-pic" src={CssButton} alt="css button"/></button>
+            </div>
+            <div>
+                <button className="topic-button" role="button" onClick={() => {navigate("/react");}}><img className="topic-pic" src={ReactButton} alt="react button"/></button>
+                <button className="topic-button" role="button" onClick={() => {navigate("/uiux");}}><img className="topic-pic" src={UiuxButton} alt="uiux button"/></button>
+            </div>
         </>
     )
 }

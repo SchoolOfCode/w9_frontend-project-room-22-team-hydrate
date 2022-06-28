@@ -29,7 +29,7 @@ function ReactTopic() {
             <List topicState={topicState}/>
             <h3>Video Resources</h3>
             <VidList topicState={topicState}/>
-            <button className="back-button" onClick={() => {navigate("/");}}>Back to Home</button>
+            <button className="back-button" role="button" onClick={() => {navigate("/");}}>Back to Home</button>
         </>
     )
 }
