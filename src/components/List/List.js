@@ -1,16 +1,9 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 import ListItem from "../ListItem/ListItem";
 
-
-//create a function {cssState}
-    //needs to be async as awaiting fetch
-    //needs to render ListItems as lis 
-        //needs to map through - need state from parent, parent is CssTopic
-        //these are coming in from the backend response
+//takes in state (results from database), filters for document resources, maps through and renders ListItem passing down the link and description as props
 function List({topicState}) {
-    //console.log(cssState);
-    //console.log(cssState.payload);
 
     return (
             topicState

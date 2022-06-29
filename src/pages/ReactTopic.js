@@ -5,13 +5,13 @@ import BootcampBoosterLogo from "../assets/BootcampBoosterLogo.png";
 import List from "../components/List/List";
 import VidList from "../components/VidList/VidList";
 
+//calls fetchItems function with useEffect on page load to send fetch to backend, data then set as state and handed as props to List and VidList
 function ReactTopic() {
+    const [topicState, setTopicState] = useState([]);
     
     useEffect( () => {
         fetchItems();
     }, []);
-
-    const [topicState, setTopicState] = useState([]);
 
     const fetchItems = async () => {
         const response = await fetch("http://localhost:3000/resources/React");
@@ -19,8 +19,6 @@ function ReactTopic() {
         //console.log(data);
         setTopicState(data.payload);
     };
-
-    //console.log(cssState);
     
     let navigate = useNavigate();
     return (
@@ -31,7 +29,7 @@ function ReactTopic() {
             <List topicState={topicState}/>
             <h3>Video Resources</h3>
             <VidList topicState={topicState}/>
-            <button className="back-button" onClick={() => {navigate("/");}}>Back to Home</button>
+            <button className="back-button" role="button" onClick={() => {navigate("/");}}>Back to Home</button>
         </>
     )
 }

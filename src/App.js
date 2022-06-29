@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 
 //imports for React Router as per docs
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 //import pages here
 import Home from "./pages/Home";
@@ -12,7 +12,7 @@ import ReactTopic from "./pages/ReactTopic";
 import UiUxTopic from "./pages/UiUxTopic";
 import ErrorPage from "./pages/ErrorPage";
 
-
+//deals with React Router to render the various pages
 function App() {
   return (
   <BrowserRouter>
