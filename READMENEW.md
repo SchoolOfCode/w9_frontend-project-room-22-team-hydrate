@@ -18,54 +18,6 @@ WE NEED TO UPDATE THIS TO OUR README - DOCUMENTATION.md (needs to be created)
 
 [Documentation](https://linktodocumentation)
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`PGUSER`
-
-`PGHOST`
-
-`PGDATABASE`
-
-`PGPASSWORD`
-
-`PGPORT`
-
-## Run Locally
-
-Clone the project - you will need to clone both frontend and backend separately!
-
-```bash
-  git clone https://github.com/SchoolOfCode/w9_backend-project-room-22-team-hydrate
-```
-
-```bash
-  git clone https://github.com/SchoolOfCode/w9_frontend-project-room-22-team-hydrate
-```
-
-Go to the project directory - to run both frontend and backend, use separate terminals to navigate into each individually
-
-```bash
-  cd w9_backend-project-room-22-team-hydrate
-```
-
-```bash
-  cd w9_frontend-project-room-22-team-hydrate
-```
-
-Install dependencies in both terminals
-
-```bash
-  npm install
-```
-
-Start the backend server and React frontend in their respective terminals
-
-```bash
-  npm start
-```
-
 ## Lessons Learned
 
 While making this project we faced a number of challenges, not least of all meeting as a new team, identifying what we wanted to make as a project, and completing our MVP within a week - as well as preparing and delivering a presentation to industry experts!
