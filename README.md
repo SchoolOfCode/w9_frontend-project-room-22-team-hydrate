@@ -38,18 +38,29 @@ We removed inline styles and put these in our central CSS file, taking the decis
 
 **Server:** Node, Express, Dotenv, Postgres, CORS
 
+### Useful Links
+
+- [React Beta Docs](https://beta.reactjs.org/)
+- [React Router V6 Getting Started](https://reactrouter.com/docs/en/v6/getting-started/overview)
+- [Cypress Documentation](https://docs.cypress.io/guides/overview/why-cypress)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express Getting Started](https://expressjs.com/en/starter/installing.html)
+- [Dotenv Documentation](https://www.npmjs.com/package/dotenv)
+- [Postgres Documentation](https://node-postgres.com/)
+- [CORS Documentation](https://www.npmjs.com/package/cors)
+
 ## Screenshots
 
-Upon opening the application, this will be the homepage:
+Homepage upon starting/opening application:
 
 <img src="./readmeImages/Homepage.JPG" alt="homepage screenshot" width="500px" />
 
-Upon selecting a topic, you will see the individual page for that topic:
+Example Topic Pages once selected from Homepage:
 
 <img src="./readmeImages/CssTopicPage.JPG" alt="css topic screenshot" width="500px" />
 
 <img src="./readmeImages/ReactTopicPage.JPG" alt="react topic screenshot" width="500px" />
 
-If using the address bar to navigate, and a typo is made or a topic selected that is currently not available, this will be the error page:
+Error Page to catch address bar typos or topics currently unavailable:
 
 <img src="./readmeImages/ErrorPage.JPG" alt="error page screenshot" width="500px" />
