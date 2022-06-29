@@ -1,8 +1,8 @@
 # Bootcamp Booster
 
-This week-long team project was centred on the brief of identifying a problem faced by bootcampers and creating a solution for this.
+This week-long team project was centred on a brief of identifying a problem faced by bootcampers, and creating a solution for this problem.
 
-Bootcamp Booster is our solution for providing curated resources to bootcampers wanting to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information.
+Bootcamp Booster is our solution for providing curated resources to bootcampers who want to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information.
 
 ## Authors
 
@@ -18,17 +18,17 @@ Bootcamp Booster is our solution for providing curated resources to bootcampers 
 
 ## Lessons Learned
 
-While making this project we faced a number of challenges, not least of all meeting as a new team, identifying what we wanted to make as a project, and completing our MVP within a week - as well as preparing and delivering a presentation to industry experts!
+We faced a number of challenges while working on the project, not least of all meeting as a new team, identifying what we wanted to make, and completing our MVP within a week - as well as preparing and delivering a presentation to industry experts!
 
-While building the project we had to research how to create new pages, and then learn and implement React Router within a very short window of time.
+While building the app we had to research how to create new pages, and then learn and implement React Router within a very short window of time.
 
-We also had never linked a React frontend with an Express backend, so this was something else we had to learn - and crucial to the functionality of the entire application.
+We'd also never linked a React frontend with an Express backend, so this was another new thing we had to learn - and crucial to the functionality of the entire application.
 
-## Optimizations
+## Optimisations
 
-To optimise our code, we ensured folder structure and naming conventions were clear throughout, removed any unused imports/unhelpful comments, and any planning remnants. We also looked at accessibility and improved the Lighthouse score to 100 by adding aria roles and alt text on images.
+To optimise our code, we ensured folder structure and naming conventions were clear throughout, removed any unused imports/unhelpful comments, and any planning remnants. We also looked at accessibility, and improved the Lighthouse score to 100 by adding aria roles and alt texts.
 
-We tried to use clean layout for our code throughout, and 'whitespace' to improve overall readability.
+We tried to use a clean, clear layout for our code throughout, with 'whitespace' to improve overall readability.
 
 We removed inline styles and put these in our central CSS file, taking the decision that our CSS wasn't extensive enough at this version to warrant CSS modules. If adding further functionality/styling in the future, CSS modules would be something we would consider.
 

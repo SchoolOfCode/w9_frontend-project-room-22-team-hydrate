@@ -1,16 +1,18 @@
 # Bootcamp Booster
 
-This document explains the functionality and how to use Bootcamp Booster.
+This document explains the functionality of, and how to use, Bootcamp Booster.
 
 ## Introduction
 
 Bootcamp Booster is a resources tool for School of Code bootcampers, designed to lessen the load of finding quality documents and tutorials related to a chosen area of study.
 
-Bootcamp is a fast-paced, tough place to be! With so much to learn and only so many hours in a day, this app aims to help improve a bootcamper's ability to study, with curated resources that cut-down the time spent searching for help.
+The bootcamp is a fast-paced, tough place to be! With so much to learn and only so many hours in a day, this app aims to help improve a bootcamper's ability to study, with curated resources that cut-down the time spent searching for help.
 
 ## Run Locally
 
-### Clone the project - you will need to clone both frontend and backend separately!
+### Create a folder for the application
+
+### Clone the project - you will need to clone both frontend and backend separately, into separate folders within the new folder you just created
 
 ```bash
   git clone https://github.com/SchoolOfCode/w9_backend-project-room-22-team-hydrate
@@ -19,8 +21,15 @@ Bootcamp is a fast-paced, tough place to be! With so much to learn and only so m
 
 ### Go to the project directories - to run both frontend and backend, use separate terminals to navigate into each individually
 
+Backend:
+
 ```bash
   cd w9_backend-project-room-22-team-hydrate
+```
+
+Frontend:
+
+```bash
   cd w9_frontend-project-room-22-team-hydrate
 ```
 
@@ -188,7 +197,7 @@ We also plan to give an option for users to add new resources, as we see this ap
 
 In the future, we'd like to implement quizzes as further functionality and as another tool for bootcampers - which could lead them to looking at particular topics or links based on their results.
 
-And - though we designed the app with a clean, minimal style intentionally, we might want to revisit this and see if a redesign would be appropriate. User feedback would be great for this, so perhaps that's another feature we would like to provide!
+And - though we designed the app with a clean, minimal style intentionally - we might want to revisit this and see if a redesign would be appropriate. User feedback would be great for this, so perhaps that's another feature we would like to provide!
 
 ### But for now...
 
