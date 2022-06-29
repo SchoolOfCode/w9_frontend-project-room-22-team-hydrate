@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Bootcamp Booster
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This week-long team project was centred on the brief of identifying a problem faced by bootcampers and creating a solution for this.
 
-## Available Scripts
+Bootcamp Booster is our solution for providing curated resources to bootcampers wanting to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information.
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+- [@lalicia](https://www.github.com/lalicia)
+- [@stardust5555](https://www.github.com/stardust5555)
+- [@Ceejay222](https://www.github.com/Ceejay222)
+- [@mbn-bsr](https://www.github.com/mbn-bsr)
+- [@abdul-aziz93](https://www.github.com/abdul-aziz93)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Documentation](https://github.com/SchoolOfCode/w9_frontend-project-room-22-team-hydrate/blob/main/DOCUMENTATION.md)
 
-### `npm test`
+## Lessons Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While making this project we faced a number of challenges, not least of all meeting as a new team, identifying what we wanted to make as a project, and completing our MVP within a week - as well as preparing and delivering a presentation to industry experts!
 
-### `npm run build`
+While building the project we had to research how to create new pages, and then learn and implement React Router within a very short window of time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We also had never linked a React frontend with an Express backend, so this was something else we had to learn - and crucial to the functionality of the entire application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Optimizations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To optimise our code, we ensured folder structure and naming conventions were clear throughout, removed any unused imports/unhelpful comments, and any planning remnants. We also looked at accessibility and improved the Lighthouse score to 100 by adding aria roles and alt text on images.
 
-### `npm run eject`
+We tried to use clean layout for our code throughout, and 'whitespace' to improve overall readability.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We removed inline styles and put these in our central CSS file, taking the decision that our CSS wasn't extensive enough at this version to warrant CSS modules. If adding further functionality/styling in the future, CSS modules would be something we would consider.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Client:** React, Create React App, React Router, Cypress
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Server:** Node, Express, Dotenv, Postgres, CORS
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Upon opening the application, this will be the homepage:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./readmeImages/Homepage.JPG" alt="homepage screenshot" width="500px" />
 
-### Code Splitting
+Upon selecting a topic, you will see the individual page for that topic:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="./readmeImages/CssTopicPage.JPG" alt="css topic screenshot" width="500px" />
 
-### Analyzing the Bundle Size
+<img src="./readmeImages/ReactTopicPage.JPG" alt="react topic screenshot" width="500px" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If using the address bar to navigate, and a typo is made or a topic selected that is currently not available, this will be the error page:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./readmeImages/ErrorPage.JPG" alt="error page screenshot" width="500px" />
