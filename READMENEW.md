@@ -91,11 +91,15 @@ We removed inline styles and put these in our central CSS file, taking the decis
 ## Screenshots
 
 Upon opening the application, this will be the homepage:
+
 <img src="./readmeImages/Homepage.JPG" alt="homepage screenshot" width="500px" />
 
 Upon selecting a topic, you will see the individual page for that topic:
+
 <img src="./readmeImages/CssTopicPage.JPG" alt="css topic screenshot" width="500px" />
+
 <img src="./readmeImages/ReactTopicPage.JPG" alt="react topic screenshot" width="500px" />
 
 If using the address bar to navigate, and a typo is made or a topic selected that is currently not available, this will be the error page:
+
 <img src="./readmeImages/ErrorPage.JPG" alt="error page screenshot" width="500px" />
